@@ -1,0 +1,9 @@
+[package]
+name = "MPPT_Written_In_RUST"     
+version = "0.1.0"               # Version actuelle
+authors = ["Rafik Mk"]    
+edition = "2021"                # edition Rust la plus récente
+
+[dependencies]
+# Dependances du projet
+embedded-hal = "0.2.7"          # Bibliothèque (I²C, SPI, ADC, GPIO)
